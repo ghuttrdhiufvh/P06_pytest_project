@@ -4,8 +4,9 @@ def test_assert_true():
 def test_assert_false():
     assert False
 
-class Calculator():
+from calculator.calculator import Calculator # type: ignore
 
+class TestCalculator:
     def test_add(self):
         # arrange
         a = 4321

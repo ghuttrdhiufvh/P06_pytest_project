@@ -8,4 +8,6 @@ def multiply(self, a, b):
     return a * b
 
 def divide(self, a, b):
+    if b == 0:
+        raise ZeroDivisionError("Division by zero error")
     return a / b
