@@ -1,15 +1,11 @@
-class Calculator():
+def add(self, a, b):
+    return a + b
 
-    def test_add(self):
-        # arrange
-        a = 4321
-        b = 1234
-        cal = Calculator()
+def subtract(self, a, b):
+    return a - b
 
-        # act
-        result = cal.add(a, b)
+def multiply(self, a, b):
+    return a * b
 
-        # assert
-        expected = 5555
-        assert result == expected
-
+def divide(self, a, b):
+    return a / b
